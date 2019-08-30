@@ -1,0 +1,7 @@
+###########################################
+# Zybo Options
+###########################################
+BR2_TARGET_UBOOT_BOARD_DEFCONFIG="zynq_zyboz7"
+BR2_PACKAGE_XILINX_BOOTLOADER_UBOOT_TARGET_DIR="board/xilinx/zynq/zynq-zyboz7"
+BR2_TARGET_UBOOT_CUSTOM_REPO_URL="https://insidelabs-git.mathworks.com/mmate/uboot.git"
+BR2_TARGET_UBOOT_CUSTOM_REPO_VERSION="mathworks_zybo_z710_R17.2.0"
